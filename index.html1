@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Big M 모건</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="site-title">Big M 모건</h1>
+    <nav>
+      <ul id="menu">
+        <li data-page="home">🏠 Accueil</li>
+        <li data-page="art">🎨 Mon Art</li>
+        <li data-page="about">👤 À propos</li>
+      </ul>
+      <select id="language-switcher">
+        <option value="fr">🇫🇷 Français</option>
+        <option value="en">🇬🇧 English</option>
+      </select>
+      <button id="theme-toggle">🎭 Changer de thème</button>
+    </nav>
+  </header>
+
+  <main id="content">
+    <!-- Le contenu changera ici dynamiquement -->
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
